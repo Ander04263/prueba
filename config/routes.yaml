@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
+
+app_product_form:
+    path: /product/new
+    controller: App\Controller\ProductController::new
+
+app_products_show:
+    path: /product/index
+    controller: App\Controller\ProductController::index
